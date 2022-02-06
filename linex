@@ -1,0 +1,118 @@
+<<<<<<<<<<<<<pwd: present work directory>>>>>>>>>>>>
+
+
+why linx?
+secure
+open source(free of cost)
+virus free
+support automation efficiently
+
+
+unix >> open source 
+is the base operationing system
+
+
+Distriubutions of linux?
+
+amazon linux
+redhat linux
+centos
+ubuntu
+
+fedore 
+suse
+imbaix			7204569870
+hpux
+sun solaris
+kali
+
+
+types of users?
+
+root: admain,super user(he has full rights,can do anythings
+	installations,deletions)
+--> root is admin rooter
+
+normal user: apart from root user all are normal users
+ 		ec2-user,amar,vijay,kumar
+		
+		team app	:amar,kumar
+		     databased  : rekha,sunil
+		     devops	: anu,hari
+
+sudo and root credentials
+
+---------------------------------------------------------------------------------		
+
+directory structure:-
+
+/     --- just like a c drive(base floder)
+/root ---root user personal directory(home directory)
+/home ---similsr to user folder in c drive(windows floder)
+/etc  ---application settings /system cofigurations
+/boot ---bootable file
+/tmp  ---temporary floder
+
+--------------------------
+create a floder ----<<mkdir >>
+create a file  -----<<touch>>
+
+-----------with CAT command-------------				to save ctrl+d
+creat file and write---(cat>),
+(cat>)-----read direction
+and open file ----(cat file)
+---------------------------------------
+vi edditor has 3 modes 
+1.esc mode:-
+	gg- 1st line
+	G- last line
+	3gg- 3rd line
+	10gg- 10th line
+	yy-for copy
+	p-for paste
+	dd- for delete
+	u- for undo
+
+	:wq- write and quite
+
+2.insert mode:-
+	to edit the file
+	there are 6 opctions : i,I,a,A,o,O
+3.command mode:-
+--------------------------------------------------
+user name,user id,group name,group id,home directory
+
+useradd-- is to create 
+--------------------------------------------------------
+putty To linux connect 
+vi /etc/ssh/sshd_config----
+        |
+	|>
+  ---->passwordAuthentication: yes
+
+to restart :---systemetc1 restart sshd 
+
+--------------------------------------------
+sudo acess to vijay
+
+    ----  vi /etc/sudoers
+	|
+        |
+        ---->vijay ALL=(ALL) NOPASSWD: ALL
+	--:wq!
+
+
+
+
+
+:
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+chef 
+https://packages.chef.io/files/stable/chef-workstation/0.13.35/el/7/chef-workstation-0.13.35-1.el7.x86_64.rpm
